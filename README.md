@@ -10,7 +10,7 @@ This is a web application to find out best study material or best courses online
 4. CSS
 5. SQLite3
 
-# Team Name: D.A.D.S
+# Team Name: DADS
 # Team Members:
 1. Diwakar Singh
 2. Akshit Mamgain
