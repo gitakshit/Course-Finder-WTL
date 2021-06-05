@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../static/result_styles.css" />
+    <title>Results</title>
+  </head>
+  <body>
+    <div class="header">Search Results</div>
+    <div class="content">
+      {% for i in val %}
+      <div class="result">
+        <h2>{{i.name}}</h2>
+        <h4>{{i.description}}</h4>
+        <h4>Link: <a href="{{i.Link}}" target="_blank">{{i.Link}}</a></h4>
+        <h4>Duration: {{i.Duration}} ( Days hh:mm:ss )</h4>
+      </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>

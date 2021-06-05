@@ -1,0 +1,52 @@
+
+	/* Resets */
+  body {
+    background-image: url('https://ordinaryfaith.net/wp-content/uploads/2016/03/Gray-plain-website-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+	hr {
+        margin-left: 0;
+        max-width: 40px;
+      }
+  
+      .content {
+          margin: auto;
+          text-align: center;
+          width: 75%;
+          color: white;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .svgimg {
+        margin: auto;
+        width: 500px;
+        height: 400px;
+        align-self: center;
+        background-color: white;
+      }
+
+      .wrapper {
+        background-color: whitesmoke;
+      }
+
+      .aboutus {
+        margin: auto;
+        align-self: center;
+        align-content: center;
+        background-color: transparent;
+      }
+
+      h1 {
+        color: white;
+      }
+  
+      footer{
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        font-weight: 600;
+        font-size: 20px;
+        margin: auto;
+      }

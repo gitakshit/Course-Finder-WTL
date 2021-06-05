@@ -1,0 +1,101 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Course Finder</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./../static/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="hero">
+        <header>
+          <div class="container">
+            <nav class="navbar navbar-light navbar-toggleable-sm">
+              <a href="#" class="navbar-brand mb-0"><b>COURSE FINDER</b></a>
+
+              <button
+                class="navbar-toggler navbar-toggler-right"
+                type="button"
+                data-toggle="collapse"
+                data-target="#headerNav"
+                aria-controls="headerNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div
+                id="headerNav"
+                class="collapse navbar-collapse justify-content-end"
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/logIn/signUp/">SignUp</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="/logIn/">LogIn</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="/team/">Team</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </header>
+      </section>
+    </div>
+    <br /><br />
+    <div class="aboutus">
+      <h1><center>Welcome to Course Finder</center></h1>
+      <div class="content">
+        <br />
+        <center>
+          <h5>
+            This is a web application to find out best study material or best
+            courses online with different filters like duration, paid or not,
+            level of content, medium etc. This application will provide you
+            various filters to increase your learning in less time and grasp
+            more knowledge. It will be very useful for the students as they want
+            to learn the things fastly and explore many things. This finds the
+            courses on different websites and recommends you the best according
+            to your needs.
+          </h5>
+        </center>
+      </div>
+    </div>
+    <br /><br />
+    <div class="svgimg">
+      <img
+        src="{% static 'undraw_Web_search_re_efla.svg' %}"
+        height="400"
+        width="500"
+      />
+    </div>
+    <br /><br />
+    <footer>
+      Team Name: DADS
+      <p>
+        Demo Link:
+        <a href="https://youtu.be/LI7O3bJakM0"
+          >Course Finder</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
